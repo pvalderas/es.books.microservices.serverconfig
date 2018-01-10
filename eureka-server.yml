@@ -1,0 +1,10 @@
+server:
+  port: 2222
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  instance:
+    nonSecurePortEnabled: false 
+    securePortEnabled: true
