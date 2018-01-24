@@ -2,7 +2,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:2223/eureka
+      defaultZone: http://localhost:2222/eureka
   instance:
     statusPageUrlPath: /infoCatalogo
     healthCheckUrlPath: /healthCatalogo
