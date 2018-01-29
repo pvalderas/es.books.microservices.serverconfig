@@ -8,12 +8,3 @@ eureka:
 server:
   port: 3333   # HTTP (Tomcat) port
   
-servicio.catalogo:
-  ribbon:
-    EnableZoneAffinity: true
-    EnableZoneExclusive: false
-    zoneAffinity:
-      minAvailableServers: 2
-      maxLoadPerServer: 0.8
-      maxBlackOutServesrPercentage: 0.6
-
