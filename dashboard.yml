@@ -8,8 +8,5 @@ eureka:
       defaultZone: http://localhost:2222/eureka
 
 turbine:
-  aggregator:
-    clusterConfig: ejemplo-hystrix
-  appConfig: ejemplo-hystrix
   amqp:
     port: 8989
