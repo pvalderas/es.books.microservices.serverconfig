@@ -11,3 +11,5 @@ turbine:
   aggregator:
     clusterConfig: ejemplo-hystrix
   appConfig: ejemplo-hystrix
+  amqp:
+    port: 8989
