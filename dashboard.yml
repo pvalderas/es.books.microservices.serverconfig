@@ -8,5 +8,8 @@ eureka:
       defaultZone: http://localhost:2222/eureka
 
 turbine:
+  aggregator:
+    clusterConfig: servicio.cesta
+  appConfig: servicio.cesta
   amqp:
     port: 8989
