@@ -1,3 +1,8 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:2222/eureka
+
 turbine:
   aggregator:
     clusterConfig: ejemplo-hystrix
