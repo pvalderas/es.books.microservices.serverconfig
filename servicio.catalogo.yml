@@ -12,4 +12,4 @@ eureka:
 
 # HTTP Server
 server:
-  port: ${PORT:1111}   # HTTP (Tomcat) port
+  port: ${PORT:1112}   # HTTP (Tomcat) port
