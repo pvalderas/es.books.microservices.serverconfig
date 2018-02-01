@@ -12,5 +12,3 @@ turbine:
   aggregator:
     clusterConfig: servicio.cesta
   appConfig: servicio.cesta
-  amqp:
-    port: 8989
