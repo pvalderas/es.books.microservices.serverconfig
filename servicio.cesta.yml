@@ -6,5 +6,5 @@ eureka:
 
 # HTTP Server
 server:
-  port: ${PORT:3333}   # HTTP (Tomcat) port
+  port: ${PORT:3334}   # HTTP (Tomcat) port
   
