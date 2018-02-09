@@ -20,4 +20,4 @@ security:
       client-id: acme
       client-secret: secret
     resource:
-      userInfoUri: http://localhost:7777/user
+      user-info-uri: http://localhost:7777/user
