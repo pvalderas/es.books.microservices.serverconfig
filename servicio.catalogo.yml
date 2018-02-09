@@ -16,8 +16,6 @@ server:
   
 security:
   oauth2:
-    client:
-      client-id: acme
-      client-secret: secret
     resource:
-      user-info-uri: http://localhost:7777/user
+      #user-info-uri: http://localhost:7777/user
+      token-info-uri: http://localhost:7777/oauth/authorize
