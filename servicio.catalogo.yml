@@ -16,5 +16,8 @@ server:
   
 security:
   oauth2:
+    client:
+      client-id: acme
+      client-secret: secret
     resource:
       userInfoUri: http://localhost:7777/user
