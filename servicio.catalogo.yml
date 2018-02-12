@@ -17,5 +17,5 @@ server:
 security:
   oauth2:
     resource:
-      token-info-uri: http://localhost:7777/user
-      #token-info-uri: http://localhost:7777/oauth/authorize
+      #user-info-uri: http://localhost:7777/user
+      token-info-uri: http://localhost:7777/oauth/authorize
