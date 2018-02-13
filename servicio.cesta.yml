@@ -9,5 +9,6 @@ server:
   port: ${PORT:3333}   # HTTP (Tomcat) port
   
 security:
-  basic:
-    enabled: false
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:7777/user
