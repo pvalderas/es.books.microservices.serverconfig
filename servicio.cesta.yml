@@ -12,3 +12,8 @@ security:
   oauth2:
     resource:
       user-info-uri: http://localhost:7777/user
+
+turbine:
+  aggregator:
+    clusterConfig: cesta
+    appConfig: cesta
